@@ -1,1 +1,72 @@
+# =========================
+# Java compiled files
+# =========================
+*.class
+*.jar
+
+# Build output
 /bin/
+/target/
+/out/
+/build/
+
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Java tooling
+# =========================
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
