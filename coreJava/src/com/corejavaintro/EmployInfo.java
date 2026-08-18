@@ -11,6 +11,11 @@ public class EmployInfo {
 	char grade;
 	String permanentStatus;
 	
+	static {
+		System.out.println("                             Employee Information");
+		System.out.println("---------------------------------------------------------------------------------");
+	}
+	
 	{
 		count++;
 		System.out.println("Employee Number "+count);
