@@ -14,6 +14,8 @@ public class UnderLimit {
 		} else {
 			System.out.println("Under the Limit");
 		}
+		
+		sc.close();
 	}
 
 }

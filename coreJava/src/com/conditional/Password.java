@@ -13,5 +13,6 @@ public class Password {
 			System.out.println("Valid");
 		}
 
+		sc.close();
 	}
 }

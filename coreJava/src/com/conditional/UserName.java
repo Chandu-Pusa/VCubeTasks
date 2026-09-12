@@ -12,5 +12,7 @@ public class UserName {
 		} else {
 			System.out.println("Invalid User Name");
 		}
+		
+		sc.close();
 	}
 }

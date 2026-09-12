@@ -14,5 +14,7 @@ public class PasswordMatch {
 		} else {
 			System.out.println("Incorrect Password..!! Try Again");
 		}
+		
+		sc.close();
 	}
 }

@@ -12,5 +12,7 @@ public class Temperature {
 		} else {
 			System.out.println("Cool");
 		}
+		
+		sc.close();
 	}
 }

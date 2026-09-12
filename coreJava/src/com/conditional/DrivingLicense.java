@@ -13,5 +13,7 @@ public class DrivingLicense {
 		} else {
 			System.out.println("Not Eligible");
 		}
+		
+		sc.close();
 	}
 }
